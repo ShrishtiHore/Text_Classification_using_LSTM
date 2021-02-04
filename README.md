@@ -35,7 +35,9 @@ Define the Hyperpararmeters for our LSTM model and compile it.
 **Categorical Cross-Entropy loss**
 
 Also called Softmax Loss. It is a Softmax activation plus a Cross-Entropy loss. If we use this loss, we will train a CNN to output a probability over the C classes for each image. It is used for multi-class classification.
+![demo](https://github.com/ShrishtiHore/Text_Classification_using_LSTM/blob/main/softmax_CE_pipeline.png)
 In the specific (and usual) case of Multi-Class classification the labels are one-hot, so only the positive class Cp keeps its term in the loss. There is only one element of the Target vector t which is not zero ti=tp. So discarding the elements of the summation which are zero due to target labels, we can write:
+![formula](https://github.com/ShrishtiHore/Text_Classification_using_LSTM/blob/main/for.gif)
 
 **Adam Optimizer**
 Adam is a replacement optimization algorithm for stochastic gradient descent for training deep learning models. Adam combines the best properties of the AdaGrad and RMSProp algorithms to provide an optimization algorithm that can handle sparse gradients on noisy problems.
