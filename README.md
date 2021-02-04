@@ -51,4 +51,4 @@ Now train the above model over the training dataset with a batch size of 1000 sa
 1. https://gombru.github.io/2018/05/23/cross_entropy_loss/
 2. https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/#:~:text=Adam%20is%20a%20replacement%20optimization,sparse%20gradients%20on%20noisy%20problems.
 3. https://medium.com/predict/creating-a-chatbot-from-scratch-using-keras-and-tensorflow-59e8fc76be79
-4. analyticsvidhya.com/blog/2020/05/what-is-tokenization-nlp/
+4. https://www.analyticsvidhya.com/blog/2020/05/what-is-tokenization-nlp/
